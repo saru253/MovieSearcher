@@ -2,16 +2,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="MovieSearcher lets you find the perfect movie across Netflix, Amazon Prime Video & Disney+ Hotstar by actor, genre, year and more.">
+<meta name="keywords" content="Movie search, Netflix movies, Amazon Prime movies, Hotstar movies, actor filter, genre filter, MovieSearcher">
+<!-- Open Graph / Social -->
+<meta property="og:title" content="MovieSearcher • Find Your Next Movie">
+<meta property="og:description" content="Filter movies by actor, genre, year & platform – streaming in India.">
+<meta property="og:image" content="https://movie-searcher-beige.vercel.app/assets/logo.png">
+<meta property="og:url" content="https://movie-searcher-beige.vercel.app/">
+<meta property="og:site_name" content="MovieSearcher">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX" crossorigin="anonymous"></script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MovieSearcher • Created by Sarthak Shinde | MovieSearcher • Created by Sarthak Shinde</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.ico" />
 </head>
 <body class="bg-gray-900 text-white min-h-screen flex flex-col">
-  <header class="text-center p-6">
-    <h1 class="text-4xl font-bold mb-2">MovieSearcher</h1>
-    <p class="text-gray-300">Find the perfect movie streaming in India 🇮🇳</p>
-  </header>
+  
+<header class="flex items-center justify-between p-4 bg-gray-950 shadow">
+  <div class="flex items-center space-x-3">
+    <img src="assets/logo.png" alt="MovieSearcher Logo" class="h-8 w-8 rounded">
+    <h1 class="text-2xl font-bold">MovieSearcher</h1>
+  </div>
+  <a href="https://movie-searcher-beige.vercel.app" class="text-sm text-red-400 hover:text-red-500">Home</a>
+</header>
+
+<!-- Top Banner Ad -->
+<div class="w-full flex justify-center mt-4 mb-2">
+  <ins class="adsbygoogle"
+       style="display:block; width:728px; height:90px"
+       data-ad-client="ca-pub-8669708835558073"
+       data-ad-slot="1234567890"
+       data-ad-format="horizontal"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+
 
   <!-- Filters -->
   <section id="filters" class="p-4 grid gap-4 md:grid-cols-4">
@@ -48,6 +83,20 @@
       Search
     </button>
   </div>
+
+  
+<!-- Ad Unit -->
+<div class="my-6 flex justify-center">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-XXXXXXXXXXXX"
+       data-ad-slot="1234567890"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 
   <!-- Results -->
   <section id="results" class="p-4 grid gap-6 md:grid-cols-3 lg:grid-cols-4 flex-grow">
