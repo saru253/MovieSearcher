@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieSearcher • Created by Sarthak Shinde | MovieSearcher • Created by Sarthak Shinde</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col">
+  <header class="text-center p-6">
+    <h1 class="text-4xl font-bold mb-2">MovieSearcher</h1>
+    <p class="text-gray-300">Find the perfect movie streaming in India 🇮🇳</p>
+  </header>
+
+  <!-- Filters -->
+  <section id="filters" class="p-4 grid gap-4 md:grid-cols-4">
+    <div>
+      <label class="block text-sm mb-1">Actor</label>
+      <input id="actorInput" type="text" placeholder="e.g. Shah Rukh Khan"
+             class="w-full p-2 rounded text-gray-900">
+    </div>
+    <div>
+      <label class="block text-sm mb-1">Genre</label>
+      <select id="genreSelect" class="w-full p-2 rounded text-gray-900">
+        <option value="">Any</option>
+      </select>
+    </div>
+    <div>
+      <label class="block text-sm mb-1">Year</label>
+      <input id="yearInput" type="number" min="1900" max="2100"
+             class="w-full p-2 rounded text-gray-900" placeholder="e.g. 2024">
+    </div>
+    <div>
+      <label class="block text-sm mb-1">Platform</label>
+      <select id="platformSelect" class="w-full p-2 rounded text-gray-900">
+        <option value="">Any</option>
+        <option value="8">Netflix</option>
+        <option value="9">Amazon Prime Video</option>
+        <option value="122">Disney+ Hotstar</option>
+      </select>
+    </div>
+  </section>
+
+  <div class="text-center mb-6">
+    <button id="searchBtn"
+            class="bg-red-600 hover:bg-red-700 py-2 px-6 rounded font-semibold">
+      Search
+    </button>
+  </div>
+
+  <!-- Results -->
+  <section id="results" class="p-4 grid gap-6 md:grid-cols-3 lg:grid-cols-4 flex-grow">
+    <!-- Movie cards will be injected here -->
+  </section>
+
+  <footer class="text-center p-4 text-gray-500">
+    Created by Sarthak Shinde
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
