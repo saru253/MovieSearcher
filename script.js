@@ -2,9 +2,9 @@
 /**
  * Movie Filter Tool
  * By Sarthak Shinde
- * Replace YOUR_TMDB_API_KEY with your TMDb API key.
+ * Replace 6e22435e90ba6a9053dd1007d28a7a11 with your TMDb API key.
  */
-const API_KEY = 'YOUR_TMDB_API_KEY';
+const API_KEY = '6e22435e90ba6a9053dd1007d28a7a11';
 const BASE_URL = 'https://api.themoviedb.org/3';
 const IMG_BASE = 'https://image.tmdb.org/t/p/w500';
 const REGION = 'IN';
